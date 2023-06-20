@@ -37,9 +37,9 @@ namespace JogoDaAmizadeVersaoConrado200623
 
                 if (pontos > 21)
                 {
-                    Console.Clear();
+                    Console.Clear(); //apaga o restante
                     Console.WriteLine("Você perdeu");
-                    break;
+                    break; // Volta para o while
                 }
 
 
