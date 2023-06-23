@@ -10,6 +10,9 @@ namespace TestandoAleatorio
     {
         static void Main(string[] args)
         {
+
+            //Versão feita pelo prof conrado, copiei para ter base de estudos
+
             int pontos = 0;
 
             Console.WriteLine("Bem-Vindo ao jogo do 21");
