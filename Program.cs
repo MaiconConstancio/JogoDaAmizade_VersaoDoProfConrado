@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JogoDaAmizadeVersaoConrado200623
+namespace TestandoAleatorio
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -37,7 +37,6 @@ namespace JogoDaAmizadeVersaoConrado200623
 
                 if (pontos > 21)
                 {
-                    Console.Clear(); //apaga o restante
                     Console.WriteLine("Você perdeu");
                     break; // Volta para o while
                 }
@@ -48,5 +47,6 @@ namespace JogoDaAmizadeVersaoConrado200623
             Console.ReadKey();
 
         }
+
     }
 }
